@@ -7,7 +7,4 @@ Simfin works like this:
 
 You need python 3, to install it go to https://www.python.org/downloads/
 
-Execute
-1. extract the simfin-master.zip to somewhere on your computer
-2. navigate to simfin-master
-3. inside that directory do ```python simfin.py```
+To execute it, extract the simfin-master.zip to somewhere on your computer, navigate to simfin-master and then inside that directory do ```python simfin.py```
