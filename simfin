@@ -4,7 +4,7 @@
 import json
 
 #Opens the simfin.json file for loading the variable.
-pen('simfin.json').read()
+open('simfin.json').read()
 var = json.loads(open('simfin.json').read())
 var = var["var"]
 
