@@ -5,4 +5,4 @@ Simfin works like this, ```add``` to add money and ```remove``` to remove it
 
 You need python 3, to install it go to https://www.python.org/downloads/
 
-To execute it, extract the simfin-master.zip to somewhere on your computer, navigate to simfin-master and then inside that directory do ```python simfin.py```
+To execute it in Fedora 23, extract the simfin-master.zip to somewhere on your computer, navigate to simfin-master and then inside that directory do ```python3.4 simfin.py```
