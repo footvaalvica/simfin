@@ -12,7 +12,9 @@ var = var["var"]
 print("What do you want to do?")
 x = input()
 
-#Fuction for adding money and writing it to the simfin.json file.
+if x == 'howmuch':
+	print("You currently have %s" %(var))
+	
 if x == 'add':
 	print("How much money do you want to add? ")
 	y = int(input())
@@ -21,7 +23,6 @@ if x == 'add':
 	with open('simfin.json', 'w') as outfile:
 		json.dump({'var':int(var)}, outfile, indent=4)
 
-#Function for removing money and writing it to the simfin.json file.
 if x == 'remove':
 	print("How much money do you want to remove? ")
 	y = int(input())
