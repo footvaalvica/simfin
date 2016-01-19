@@ -15,7 +15,7 @@ print("What do you want to do?")
 x = input()
 
 if x == 'history':
-	print("Last time you added/removed %s€." %(moneyaddrm))
+	print("Last time you added/removed %s." %(moneyaddrm))
 	print("at %s" %(whenaddrm)) 
 
 if x == 'howmuch':
