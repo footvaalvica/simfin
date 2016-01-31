@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 #TODO's:
-#separate the different actions (add, remove etc.) to functions/methods
 #remove possibility to go to negative funds, unless you implement a credit system of some sort.
 #perhaps encapsulate your "bank" account as a class, so that you don't end up with a metric fuckton of variables.
 #Also good practice for learning.
