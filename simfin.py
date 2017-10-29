@@ -58,17 +58,37 @@ def add():
 	var = (var+lz)
 	writeout()
 
-print("What do you want to do?")
-x = input()
+def help():
+	print("add for adding money")
+	print("howmuch to check money amount")
+	print("history to check when you last added/removed money")
+	print("remove to remove money")
+	print("close to close the program")
+	print("and help to run this again")
+	start()
 
-if x == 'history':
-	history()
+def start():
+	print("What do you want to do?")
+	x = input()
+	if x == 'history':
+		history()
+	
+	elif x == 'howmuch':
+		howmuch()
+	
+	elif x == 'add':
+		add()
+	
+	elif x == 'remove':
+		remove()
+	
+	elif x == 'help':
+		help()
 
-if x == 'howmuch':
-	howmuch()
+	elif x == 'close':
+		pass
 
-if x == 'add':
-	add()
+	else:
+		help()
 
-if x == 'remove':
-	remove()
+start()
